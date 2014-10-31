@@ -515,6 +515,7 @@ section.together {
 		background: @c-gray-background;
 		border: 1px solid @c-border-color;
 		padding: 0 30px 30px;
+		position: relative;
 	}
 
 	.col-title {
@@ -609,16 +610,16 @@ section.together {
 			background-position: 15px top;
 		}.icon-tie {
 			background-image: url(../img/tie.png);
-			background-position: 18px top;
+			background-position: 18px 8px;
 		}.icon-award {
 			background-image: url(../img/award.png);
-			background-position: 12px top;
+			background-position: 12px 6px;
 		}.icon-like {
 			background-image: url(../img/like.png);
-			background-position: 10px 4px;
+			background-position: 10px 8px;
 		}.icon-sun {
 			background-image: url(../img/sun.png);
-			background-position: 12px top;
+			background-position: 12px 6px;
 		}
 
 	}
@@ -626,7 +627,7 @@ section.together {
 	.news-list {
 		li {
 			display: block;
-			margin-bottom: 12px;
+			margin-bottom: 24px;
 		}
 
 		.news-title {
@@ -644,6 +645,8 @@ section.together {
 			font-size: 14px;
 			color: #6b6b6b;
 			position: relative;
+			line-height: 17px;
+			text-indent: 2em;
 
 			.left, .right {
 				float: left;
@@ -657,6 +660,14 @@ section.together {
 				width: 60%;
 			}
 		}
+	}
+
+	.more {
+		position: absolute;
+		right: 30px;
+		bottom: 24px;
+		font-size: 14px;
+		color: #6b6b6b;
 	}
 }
 

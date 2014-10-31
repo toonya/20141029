@@ -773,6 +773,7 @@ section.together .together-col {
   background: #eeeeee;
   border: 1px solid #dcdcdc;
   padding: 0 30px 30px;
+  position: relative;
 }
 section.together .col-title {
   font-size: 20px;
@@ -852,23 +853,23 @@ section.together .point-list .icon-tea {
 }
 section.together .point-list .icon-tie {
   background-image: url(../img/tie.png);
-  background-position: 18px top;
+  background-position: 18px 8px;
 }
 section.together .point-list .icon-award {
   background-image: url(../img/award.png);
-  background-position: 12px top;
+  background-position: 12px 6px;
 }
 section.together .point-list .icon-like {
   background-image: url(../img/like.png);
-  background-position: 10px 4px;
+  background-position: 10px 8px;
 }
 section.together .point-list .icon-sun {
   background-image: url(../img/sun.png);
-  background-position: 12px top;
+  background-position: 12px 6px;
 }
 section.together .news-list li {
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 section.together .news-list .news-title {
   color: #f42a25;
@@ -881,6 +882,8 @@ section.together .news-list .content {
   font-size: 14px;
   color: #6b6b6b;
   position: relative;
+  line-height: 17px;
+  text-indent: 2em;
 }
 section.together .news-list .content .left,
 section.together .news-list .content .right {
@@ -891,6 +894,13 @@ section.together .news-list .content .left {
 }
 section.together .news-list .content .right {
   width: 60%;
+}
+section.together .more {
+  position: absolute;
+  right: 30px;
+  bottom: 24px;
+  font-size: 14px;
+  color: #6b6b6b;
 }
 footer {
   background: url(../img/footer-bakcground.jpg) no-repeat, url(../img/footer-pattern.jpg) repeat;
