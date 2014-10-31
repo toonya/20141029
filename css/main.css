@@ -619,14 +619,6 @@ section.honour .carousel-control.right {
 section.honour .img-responsive {
   margin: 0 auto;
 }
-section.together {
-  padding-top: 48px;
-}
-section.together .together-col {
-  height: 560px;
-  background: #eeeeee;
-  border: 1px solid #dcdcdc;
-}
 section.team {
   margin-bottom: 60px;
 }
@@ -771,6 +763,134 @@ section.feedback .feedback-inner .customer::before {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+section.together {
+  color: #6b6b6b;
+  padding-top: 48px;
+}
+section.together .together-col {
+  height: 560px;
+  background: #eeeeee;
+  border: 1px solid #dcdcdc;
+  padding: 0 30px 30px;
+}
+section.together .col-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 28px 0;
+}
+section.together ul {
+  margin: 0;
+  padding: 0;
+}
+section.together .hot-item-list li {
+  display: block;
+  margin-bottom: 30px;
+}
+section.together .hot-item-list li a {
+  display: block;
+  height: 100px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  background-position: 6px center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 34px;
+  color: black;
+  font-size: 16px;
+  padding-top: 28px;
+  line-height: 20px;
+}
+section.together .hot-item-list li a .link-inner {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+section.together .hot-item-list li a small {
+  font-size: 12px;
+}
+section.together .hot-item-list li a.free::after {
+  content: " ";
+  background: url(../img/free.png) no-repeat;
+  width: 34px;
+  height: 83px;
+  position: absolute;
+  top: -3px;
+  right: 28px;
+}
+section.together .hot-item-list li a.water-mark-doc {
+  background-image: url(../img/doc-water-mark.png);
+}
+section.together .hot-item-list li a.water-mark-clipboard {
+  background-image: url(../img/clipboard-water-mark.png);
+}
+section.together .point-list li {
+  display: block;
+}
+section.together .point-list li p {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+section.together .point-list .icon {
+  padding-left: 84px;
+  background-repeat: no-repeat;
+}
+section.together .point-list .item-title {
+  font-size: 24px;
+  color: #f42a25;
+}
+section.together .point-list .item-title span {
+  font-size: 18px;
+}
+section.together .point-list .icon-tea {
+  background-image: url(../img/tea.png);
+  background-position: 15px top;
+}
+section.together .point-list .icon-tie {
+  background-image: url(../img/tie.png);
+  background-position: 18px top;
+}
+section.together .point-list .icon-award {
+  background-image: url(../img/award.png);
+  background-position: 12px top;
+}
+section.together .point-list .icon-like {
+  background-image: url(../img/like.png);
+  background-position: 10px 4px;
+}
+section.together .point-list .icon-sun {
+  background-image: url(../img/sun.png);
+  background-position: 12px top;
+}
+section.together .news-list li {
+  display: block;
+  margin-bottom: 12px;
+}
+section.together .news-list .news-title {
+  color: #f42a25;
+}
+section.together .news-list a:hover .content {
+  color: #333;
+  transition: .3s;
+}
+section.together .news-list .content {
+  font-size: 14px;
+  color: #6b6b6b;
+  position: relative;
+}
+section.together .news-list .content .left,
+section.together .news-list .content .right {
+  float: left;
+}
+section.together .news-list .content .left {
+  width: 40%;
+}
+section.together .news-list .content .right {
+  width: 60%;
 }
 footer {
   background: url(../img/footer-bakcground.jpg) no-repeat, url(../img/footer-pattern.jpg) repeat;
