@@ -384,6 +384,7 @@ header .contact a {
 nav.navbar {
   height: 55px;
   background: #f42a25;
+  border-radius: 0;
   box-shadow: 0 3px 3px 2px rgba(75, 5, 0, 0.3);
   position: relative;
   z-index: 10;
