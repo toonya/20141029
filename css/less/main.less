@@ -28,14 +28,17 @@ header {
 	}
 
 	.language {
-		padding-top: 14px;
+		padding: 14px 6px 6px;
+		display: inline-block;
+		background: #000;
+		color: #aaa;
 
 		a {
-			color: @c-red;
+			color: #fff;
 			transition: .5s;
 
 			&:hover {
-				color: @c-red - #333;
+				color: @c-red + #333;
 			}
 		}
 	}
@@ -57,6 +60,10 @@ nav.navbar {
 	position: relative;
 	z-index: 10;
 	margin: 0;
+
+	.col-sm-8 {
+		padding-left: 0;
+	}
 
 	.menu-list {
 		margin: 0;
@@ -151,6 +158,16 @@ nav.navbar {
 					background: #DDDDDD;
 				}
 			}
+		}
+	}
+
+	.contact {
+		float: right;
+		a {
+			color: black;
+			font-size: 18px;
+			font-weight: bold;
+			line-height: 54px;
 		}
 	}
 }

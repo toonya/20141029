@@ -367,14 +367,17 @@ header .logo {
   margin-top: 14px;
 }
 header .language {
-  padding-top: 14px;
+  padding: 14px 6px 6px;
+  display: inline-block;
+  background: #000;
+  color: #aaa;
 }
 header .language a {
-  color: #f42a25;
+  color: #fff;
   transition: .5s;
 }
 header .language a:hover {
-  color: #c10000;
+  color: #ff5d58;
 }
 header .contact a {
   color: black;
@@ -389,6 +392,9 @@ nav.navbar {
   position: relative;
   z-index: 10;
   margin: 0;
+}
+nav.navbar .col-sm-8 {
+  padding-left: 0;
 }
 nav.navbar .menu-list {
   margin: 0;
@@ -471,6 +477,15 @@ nav.navbar .search form button::before {
   width: 1px;
   height: 32px;
   background: #DDDDDD;
+}
+nav.navbar .contact {
+  float: right;
+}
+nav.navbar .contact a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 54px;
 }
 .main {
   position: relative;
