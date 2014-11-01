@@ -539,7 +539,7 @@ section.slide .carousel-caption.right {
   text-align: right;
   top: 60px;
 }
-section.slide .carousel-caption .title {
+section.slide .carousel-caption .carousel-title {
   font-size: 54px;
   font-weight: bold;
   line-height: 60px;
