@@ -352,6 +352,9 @@ a:hover {
   height: 30px;
   width: 100%;
 }
+.col-10-5 {
+  width: 20%;
+}
 body {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   background: #fff;
@@ -662,7 +665,7 @@ section.team .carousel-control.right {
           transform: translateX(6px);
 }
 section.team .img-responsive {
-  margin: 0 auto 24px;
+  margin: 0 0 24px;
 }
 section.co-op .item-inner {
   display: table;
